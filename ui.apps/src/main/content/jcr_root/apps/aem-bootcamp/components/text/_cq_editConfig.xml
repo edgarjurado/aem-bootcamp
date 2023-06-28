@@ -93,7 +93,7 @@
                     features="-"/>
                 <format
                     jcr:primaryType="nt:unstructured"
-                    features="bold,italic"/>
+                    features="bold,italic,underline"/>
             </rtePlugins>
             <uiSettings jcr:primaryType="nt:unstructured">
                 <cui jcr:primaryType="nt:unstructured">
