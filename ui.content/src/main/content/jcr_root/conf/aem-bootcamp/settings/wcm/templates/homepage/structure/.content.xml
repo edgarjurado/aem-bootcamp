@@ -3,40 +3,12 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2023-07-26T09:56:18.819-06:00"
-        cq:lastModifiedBy="admin"
         cq:template="/conf/aem-bootcamp/settings/wcm/templates/homepage"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="aem-bootcamp/components/page">
         <root
-            jcr:lastModified="{Date}2023-07-26T09:54:40.886-06:00"
-            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <experiencefragment
-                jcr:created="{Date}2023-07-26T09:44:49.265-06:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-07-26T09:45:05.835-06:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aem-bootcamp/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/aem-bootcamp/Aem-Bootcamp-Header/master"/>
-            <experiencefragment_1
-                jcr:created="{Date}2023-07-26T09:55:32.751-06:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-07-26T09:56:18.818-06:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aem-bootcamp/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/aem-bootcamp/Aem-Bootcamp-Header/master"/>
-            <carousel
-                jcr:created="{Date}2023-07-26T09:55:14.288-06:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2023-07-26T09:55:14.288-06:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aem-bootcamp/components/carousel"/>
-        </root>
+            sling:resourceType="wcm/foundation/components/responsivegrid"/>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
