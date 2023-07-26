@@ -29,6 +29,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aem-bootcamp/components/search"
                 searchRoot="/content/aem-bootcamp/us"/>
+            <logo/>
         </root>
     </jcr:content>
 </jcr:root>

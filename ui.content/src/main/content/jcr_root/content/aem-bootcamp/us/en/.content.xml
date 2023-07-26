@@ -2,14 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        pageTitle="AEM Bootcamp Site"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="en"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2023-07-07T12:05:25.995-06:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/aem-bootcamp/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
         sling:resourceType="aem-bootcamp/components/page"
-    >
+        pageTitle="AEM Bootcamp Site">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="aem-bootcamp/components/container"
@@ -21,6 +22,8 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="aem-bootcamp/components/title"/>
                 <container
+                    jcr:lastModified="{Date}2023-06-29T11:34:02.825-06:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="aem-bootcamp/components/container"
                     layout="responsiveGrid">
@@ -72,12 +75,39 @@
                                 width="4"/>
                         </cq:responsive>
                     </teaser_copy_1579324932>
+                    <mytext
+                        jcr:created="{Date}2023-06-27T17:17:18.219-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-27T17:50:23.920-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-bootcamp/components/mytext"
+                        text="&lt;ol>&#xa;&lt;li>&lt;i>&lt;/i>Test 1&lt;/li>&#xa;&lt;li>&lt;i>Test 2&lt;/i>&lt;/li>&#xa;&lt;li>&lt;i>Test 1&lt;/i>&lt;/li>&#xa;&lt;/ol>&#xa;"
+                        textIsRich="true"/>
                     <helloworld
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="aem-bootcamp/components/helloworld"
                         text="lalala :)"/>
+                    <myseparator
+                        cq:styleIds="[1688404750689,1688753084297,1687983610725]"
+                        jcr:created="{Date}2023-06-30T13:56:32.899-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-30T13:56:32.899-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-bootcamp/components/general/myseparator"/>
+                    <author_2117301088
+                        jcr:created="{Date}2023-06-30T14:27:52.900-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-30T14:48:24.964-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-bootcamp/components/general/author"
+                        firstName="Edgar"
+                        lastName="Jurado"/>
                 </container>
             </container>
         </root>
     </jcr:content>
+    <aembootcamp/>
 </jcr:root>

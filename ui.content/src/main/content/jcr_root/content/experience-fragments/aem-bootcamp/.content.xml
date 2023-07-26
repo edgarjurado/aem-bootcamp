@@ -7,4 +7,5 @@
     jcr:title="AEM Bootcamp Site Fragments"
     sling:configRef="/conf/aem-bootcamp">
     <us/>
+    <Aem-Bootcamp-Header/>
 </jcr:root>

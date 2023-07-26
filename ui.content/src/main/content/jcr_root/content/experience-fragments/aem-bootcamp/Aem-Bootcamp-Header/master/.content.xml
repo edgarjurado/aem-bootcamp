@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-07-18T16:44:45.978-06:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/aem-bootcamp/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header"
+        sling:resourceType="aem-bootcamp/components/xfpage">
+        <root
+            cq:masterBuildingBlock="{Boolean}true"
+            jcr:lastModified="{Date}2023-07-18T16:31:40.928-06:00"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Building Block"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <root87106488101500
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aem-bootcamp/components/container"
+                layout="responsiveGrid">
+                <navigation
+                    jcr:created="{Date}2023-07-18T16:44:34.925-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-07-18T16:44:34.925-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-bootcamp/components/navigation"/>
+                <image
+                    jcr:created="{Date}2023-07-18T14:28:09.295-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-07-18T14:28:09.295-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-bootcamp/components/image"/>
+            </root87106488101500>
+        </root>
+    </jcr:content>
+</jcr:root>
